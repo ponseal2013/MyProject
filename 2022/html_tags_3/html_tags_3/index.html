@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Формы-Теги HTML часть 3</title>
+	</head>
+
+	<body>
+		<!-- Форма - блочный. Сам ничего не делает, является ящиком инструментов -->
+		<form action="#" method="post" enctype="multipart/form-data"></form> <!-- # - это заглушка, там должен быть путь к серверу. Метод передачи method - по умолчанию get, тогда все видно в строке поиска и мало данных можно передать. Метод post - передает данные скрытно и много. method="post" enctype="multipart/form-data" - чтобы отправлять еще и файлы-->
+		<input tabindex="1" type="text" name="username" value=""> <!-- тип текст - это поле ввода любого текста -->
+		<!-- tabindex="1" - при нажатии на клавишу Tab определяет следующее поле -->
+		<input type="password" name="userpass" value=""> <!-- тип пасворд - это поле для ввода пароля, закрыто звездочкой -->
+		<!-- Теги input строчные, идут друг за другом. Ниже поместим их в контейнер div чтобы они стали друг под другом -->
+		<div>
+			<input placeholder="Подсказка внутри поля" type="text" name="username"
+				value=""> <!-- name - имя, value - значение(для имени пользователя и пароля оставляют пустым)-->
+			<!-- Значения name не должны повторяться, за исключением radio - должны быть одинаковыми чтобы объединиться в группу -->
+			<!-- placeholder - для input и textarea внутри поля можно сделать подсказки -->
+		</div>
+		<div>
+			<input disabled type="password" name="userpass" value="">
+			<!-- Для всех тегов кроме form можно применить disabled - поле становится неактивным -->
+		</div>
+		<div>
+			<p><input tabindex="2" checked type="radio" name="beer" value="lager">Светлое
+				пиво</p>
+			<!-- radio - это переключатель, можно выбрать только один. checked - чтобы сразу был включен один -->
+			<!-- Светлое пиво - это сопроводительный текст -->
+			<p><input tabindex="2" type="radio" name="beer" value="dark">Темное пиво</p>
+			<!-- У типа radio - tabindex должен быть одинаковым для каждой группы -->
+		</div>
+		<br> <!-- пустая строка между блоками -->
+		<div> <!-- второй блок, работает отдельно от первого -->
+			<p><input tabindex="3" type="radio" name="beer2" value="lager">Светлое пиво</p>
+			<p><input tabindex="3" checked type="radio" name="beer2" value="dark">Темное
+				пиво</p>
+		</div>
+		<br>
+		<div> <!-- Чекбоксы - можно вытрать несколько. checked - сразу выбраны-->
+			<p><input checked type="checkbox" name="car" value="yes">Наличие авто</p>
+			<p><input type="checkbox" name="car2" value="yes">Наличие авто 2</p>
+			<p><input checked type="checkbox" name="car3" value="yes">Наличие авто 3</p>
+			<p><input type="checkbox" name="car4" value="yes">Наличие авто 4</p>
+		</div>
+		<br>
+		<div> <!-- Файл -->
+			<p><input type="file" name="foto"></p> <!-- здесь value(значение убираем), значением будет сам файл-->
+		</div>
+		<br>
+		<div> <!-- Поле для ввода многострочного текста. name - имя, id - здесь не нужен, cols и rows - размеры поля, но их тоже убирают,т.к. размеры контролируются css 
+			<textarea name="text" id="" cols="30" rows="10"></textarea>-->
+			<textarea name="text"></textarea>
+		</div>
+		<br>
+		<div> <!-- Выпадающий список, где select - коробочка, а option - пункты списка -->
+			<select name="color"> <!-- color - Имя всего списка, id - здесь не нужен 
+			<select multiple name="color"> делает множественный выбор при помощи клавиши Ctrl-->
+				<option value="red">Красный</option>
+				<option value="blue">Синий</option>
+				<option selected value="black">Черный</option> <!-- selected - пункт сразу выбран -->
+			</select>
+		</div>
+		<br>
+		<div> <!-- Кнопка -->
+			<button>Отправить</button>
+			<button type="submit">Отправить</button> <!-- submit - отправит всю форму на сервер -->
+			<button type="reset">Очистить</button> <!-- reset - очистит всю форму -->
+		</div>
+	</body>
+
+</html>
