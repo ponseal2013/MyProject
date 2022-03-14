@@ -74,7 +74,79 @@ h1, h2, h3, h4, h5, h6 {
 
 /*----------Конец обнуления----------*/
 
-.bigred {
-	font-size: 20px;
-	color: red;
+/* Выбираем семейство шрифтов Ариал */
+.arial {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
+/* Размер шрифта параграфа fontsize30 */
+.fontsize30 {
+	font-size: 30px;
+}
+
+/* Начертание шрифта, например курсив */
+.italic {
+	font-style: italic;
+}
+
+/* Насыщенность(вес) шрифта  */
+.font700 {
+	font-weight: 700;
+	/* Тоже самое, что bold=жирный. 400=normal=обычный */
+}
+
+/* Цвет текста  */
+.colorred {
+	color: red;
+	color: #f00f00;
+	/* Этот формат используют чаще*/
+	color: rgb(255, 0, 0);
+}
+
+/* Горизонтальное выравнивание текста */
+.textright {
+	text-align: center;
+}
+
+/*Добавляет оформление текста (подчеркнутый, зачеркнутый и т.д. */
+.decoration {
+	text-decoration: underline;
+}
+
+/* Добавляет тень к тексту */
+.shadow {
+	text-shadow: 1px 1px 1px #000;
+}
+
+/* Заглавные или прописные символы */
+.uppercase {
+	text-transform: lowercase;
+}
+
+/* Отступ (типа красной строки) */
+.ident {
+	text-indent: 50px;
+}
+
+/* Межсимвольный интервал */
+.lspace {
+	letter-spacing: 5px;
+}
+
+/* Интервал между словами */
+.wspace {
+	word-spacing: 15px;
+}
+
+/* Управляет пробелами между словами */
+.whitespace {
+	white-space: nowrap;
+}
+
+/* Межстрочный интервал */
+.lineheight {
+	line-height: 20px;
+}
+
+
+/* Домашка в архиве css_2 */
