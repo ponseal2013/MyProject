@@ -73,3 +73,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*----------Конец обнуления----------*/
+
+body {
+	padding: 30px;
+	background: url('../img/smok25dpi-1920x3500-2.jpg') 0 0/100% auto no-repeat scroll;
+}
+
+.block {
+
+	height: 300px;
+	border-radius: 15px;
+	box-shadow: 0 0 10px #000;
+}
