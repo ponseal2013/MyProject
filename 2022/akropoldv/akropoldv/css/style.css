@@ -111,7 +111,7 @@ footer {
 
 /* Импортируем файлы и шрифты */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background: url("../img/smok25dpi-1920x3500-2.jpg") 0 0/100% auto no-repeat scroll;
 }
 
