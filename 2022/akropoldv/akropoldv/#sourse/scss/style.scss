@@ -1,19 +1,17 @@
-@import "_nullstyle";
+// Импортируем файлы и шрифты
+@import "_nullstyle"; // Обнуление стилей
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
 @import "_header";
 @import "_footer";
-
-/* Импортируем файлы и шрифты */
-
+// -------------------------
 body {
    font-family: "Roboto", sans-serif;
    background: url("../img/smok25dpi-1920x3500-2.jpg") 0 0/100% auto no-repeat scroll;
 }
 
 .warning {
-   visibility: visible;
+   visibility: visible; //Чтобы скрыть блок - hidden
    border: 5px solid #fff;
-   /* Чтобы скрыть - hidden*/
    margin: 20px auto;
    padding: 20px;
    background: red;

@@ -1,82 +1,84 @@
 @charset "UTF-8";
+
 /*Обнуление*/
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
 * {
-  padding: 0;
-  margin: 0;
-  border: 0;
+   padding: 0;
+   margin: 0;
+   border: 0;
 }
 
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 :focus,
 :active {
-  outline: none;
+   outline: none;
 }
 
 a:focus,
 a:active {
-  outline: none;
+   outline: none;
 }
 
 nav,
 footer,
 header,
 aside {
-  display: block;
+   display: block;
 }
 
 html,
 body {
-  height: 100%;
-  width: 100%;
-  font-size: 100%;
-  line-height: 1;
-  font-size: 14px;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
 }
 
 input,
 button,
 textarea {
-  font-family: inherit;
+   font-family: inherit;
 }
 
 input::-ms-clear {
-  display: none;
+   display: none;
 }
 
 button {
-  cursor: pointer;
+   cursor: pointer;
 }
 
 button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
+   padding: 0;
+   border: 0;
 }
 
 a,
 a:visited {
-  text-decoration: none;
+   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: none;
+   text-decoration: none;
 }
 
 ul li {
-  list-style: none;
+   list-style: none;
 }
 
 img {
-  vertical-align: top;
+   vertical-align: top;
 }
 
 h1,
@@ -85,52 +87,52 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: inherit;
-  font-weight: 400;
+   font-size: inherit;
+   font-weight: 400;
 }
 
+
 /*----------Конец обнуления----------*/
+
 header {
-  font-family: 'Roboto';
-  color: white;
+   font-family: 'Roboto';
+   color: white;
 }
 
 .headerblock {
-  max-width: 1200px;
-  border-bottom: 4px solid orange;
-  padding: 10px;
-  margin: 10px auto;
-  height: 110px;
+   max-width: 1200px;
+   border-bottom: 4px solid orange;
+   padding: 10px;
+   margin: 10px auto;
+   height: 110px;
 }
 
 footer {
-  height: 70px;
-  font-family: 'Roboto';
-  color: white;
+   height: 70px;
+   font-family: 'Roboto';
+   color: white;
 }
 
-/* Импортируем файлы и шрифты */
 body {
-  font-family: "Roboto", sans-serif;
-  background: url("../img/smok25dpi-1920x3500-2.jpg") 0 0/100% auto no-repeat scroll;
+   font-family: "Roboto", sans-serif;
+   background: url("../img/smok25dpi-1920x3500-2.jpg") 0 0/100% auto no-repeat scroll;
 }
 
 .warning {
-  visibility: visible;
-  border: 5px solid #fff;
-  /* Чтобы скрыть - hidden*/
-  margin: 20px auto;
-  padding: 20px;
-  background: red;
-  font-size: 40px;
-  text-transform: uppercase;
-  color: #fff;
+   visibility: visible;
+   border: 5px solid #fff;
+   margin: 20px auto;
+   padding: 20px;
+   background: red;
+   font-size: 40px;
+   text-transform: uppercase;
+   color: #fff;
 }
 
 .block {
-  color: white;
-  height: 300px;
-  border-radius: 15px;
-  -webkit-box-shadow: 0 0 10px #000;
-          box-shadow: 0 0 10px #000;
+   color: white;
+   height: 300px;
+   border-radius: 15px;
+   -webkit-box-shadow: 0 0 10px #000;
+   box-shadow: 0 0 10px #000;
 }
