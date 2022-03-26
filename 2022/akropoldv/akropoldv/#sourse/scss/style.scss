@@ -1,16 +1,13 @@
-@import "nullstyle.scss";
+@import "_nullstyle";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
-header {
-   font-family: 'Roboto';
-   color: white;
-}
+@import "_header";
+@import "_footer";
 
-.headerblock {
-   max-width: 1200px;
-   border-bottom: 4px solid orange;
-   padding: 10px;
-   margin: 10px auto;
-   height: 110px;
+/* Импортируем файлы и шрифты */
+
+body {
+   font-family: 'Roboto', sans-serif;
+   background: url('../img/smok25dpi-1920x3500-2.jpg') 0 0/100% auto no-repeat scroll;
 }
 
 .warning {
@@ -20,20 +17,9 @@ header {
    margin: 20px auto;
    padding: 20px;
    background: red;
-   font-size: 35px;
+   font-size: 40px;
    text-transform: uppercase;
    color: #fff
-}
-
-body {
-   font-family: 'Roboto', sans-serif;
-   background: url('../img/smok25dpi-1920x3500-2.jpg') 0 0/100% auto no-repeat scroll;
-}
-
-footer {
-   height: 70px;
-   font-family: 'Roboto';
-   color: white;
 }
 
 .block {
