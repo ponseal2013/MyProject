@@ -116,7 +116,7 @@ a {
    max-height: 110px;
    padding: 10px;
    margin: 0 auto;
-   border-bottom: 4px solid orange;
+   border-bottom: 4px solid #f5710c;
 }
 
 .header__section {
@@ -135,7 +135,7 @@ a {
 .headertitle {
    font-size: 42px;
    font-weight: 700;
-   color: orange;
+   color: #f5710c;
 }
 
 .headerbutton {
@@ -143,12 +143,12 @@ a {
 }
 
 .active-button {
-   color: orange;
+   color: #f5710c;
    font-size: 20px;
 }
 
 a:hover {
-   color: orange;
+   color: #f5710c;
 }
 
 .content {}
