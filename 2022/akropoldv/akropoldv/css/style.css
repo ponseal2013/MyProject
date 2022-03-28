@@ -96,7 +96,7 @@ h6 {
 
 body {
    font-family: "Roboto", sans-serif;
-   background: url("../img/smok25dpi-1920x3500-2.jpg") 0 0/100% auto no-repeat scroll;
+   background: url("../img/fon/smok25dpi-1920x3500-2.jpg") 0 0/100% auto no-repeat scroll;
    color: white;
 }
 
@@ -105,7 +105,12 @@ a {
    text-decoration: none;
 }
 
-.wrapper {}
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+}
 
 .header {}
 
@@ -130,7 +135,9 @@ a {
    text-transform: uppercase;
 }
 
-.headerlogo {}
+.headerlogo img {
+   max-width: 100px;
+}
 
 .headertitle {
    font-size: 42px;
@@ -151,7 +158,9 @@ a:hover {
    color: #f5710c;
 }
 
-.content {}
+.content {
+   flex: 1 1 auto;
+}
 
 .title {
    max-width: 1200px;
@@ -172,14 +181,14 @@ a:hover {
    border-top: 2px solid #fff;
 }
 
-.otstup {
-   height: 40px;
-   margin: 0 auto;
+.warning__container {
+   padding-top: 10px;
 }
 
 .warning {
    background-color: red;
    max-width: 1100px;
+   max-height: 100%;
    margin: 0 auto;
    padding: 20px;
    font-size: 34px;
@@ -189,4 +198,25 @@ a:hover {
    border: 2px solid #fff;
 }
 
-.footer {}
+.footer {
+   background-color: #001149;
+}
+
+.footer__container {
+   display: flex;
+   justify-content: space-between;
+   max-width: 1200px;
+   max-height: 70px;
+   margin: 0 auto;
+}
+
+.footer__item {
+   font-size: 16px;
+   padding: 10px;
+}
+
+.footer__item1 {
+   font-size: 16px;
+   text-align: right;
+   padding: 10px;
+}
