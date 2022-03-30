@@ -68,6 +68,7 @@
    display: flex;
    flex-direction: column;
    min-width: 350px;
+   max-width: 350px;
 }
 
 .vertical__title {
@@ -103,14 +104,19 @@
    display: flex;
    justify-content: left;
    align-items: center;
+   padding: 0 50px 20px 50px;
 }
 
 .text__list {
    font-size: 16px;
-   line-height: 28px;
+   line-height: 44px;
    font-weight: 700;
    text-align: left;
    color: #383838;
+}
+
+.text__blag {
+   line-height: 32px;
 }
 
 .vertical__button {}
