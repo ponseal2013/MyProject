@@ -47,78 +47,76 @@
 
 /*----------------------------------*/
 
-.cards {
-   margin-top: 100px;
+.vertical {
+   margin: 200px 0 0 0;
 }
 
-.cards__container {
+.container {
    max-width: 1200px;
    margin: 0 auto;
-   display: flex;
-   justify-content: space-around;
 }
 
-.cards__vertical {
+.vertical__row {
+   display: flex;
+   margin: 0px 20px;
+}
+
+.vertical__column {
+   padding: 0px 20px;
+   flex: 0 1 33.333%;
+}
+
+.vertical__item {
    background-color: #e8e8e8;
-}
-
-.vertical__container {
-   min-height: 100%;
-   overflow: hidden;
-   display: flex;
-   flex-direction: column;
-   min-width: 350px;
-   max-width: 350px;
+   color: #383838;
+   padding-bottom: 30px;
 }
 
 .vertical__title {
-   display: flex;
-   justify-content: center;
-   align-items: center;
    background-color: #2e8cc7;
-   min-height: 70px;
-}
-
-.title__text {
-   font-size: 26px;
+   padding: 12px 0px;
+   font-size: 24px;
    font-weight: 700;
+   color: #fff;
    text-align: center;
 }
 
 .vertical__price {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   min-height: 70px;
-}
-
-.price__text {
-   font-size: 44px;
-   font-weight: 700;
-   text-align: center;
+   font-size: 40px;
    color: #f5710c;
-   padding: 20px 0 50px 0;
+   text-align: center;
+   padding: 30px 0 30px 0;
+   font-weight: 700;
 }
 
 .vertical__text {
-   display: flex;
-   justify-content: left;
-   align-items: center;
-   padding: 0 50px 20px 50px;
+   padding: 0 20px 0;
+   margin-bottom: 30px;
 }
 
-.text__list {
+.vertical__text li {
+   background: url(../img/icons/green-galochka-30px.png) left no-repeat;
+   padding: 0 0 0 40px;
    font-size: 16px;
-   line-height: 44px;
+   line-height: 56px;
    font-weight: 700;
-   text-align: left;
+}
+
+.vertical__button {
+   display: block;
+   height: 50px;
+   margin: 0 50px;
+   background-color: #f5f5f5;
    color: #383838;
+   line-height: 45px;
+   font-size: 16px;
+   font-weight: 700;
+   border-radius: 50px;
+   text-align: center;
+   border: 3px solid #2e8cc7;
 }
 
-.text__blag {
-   line-height: 32px;
+.vertical__button:hover {
+   color: #fff;
+   background-color: #2e8cc7;
 }
-
-.vertical__button {}
-
-.cardsbutton {}

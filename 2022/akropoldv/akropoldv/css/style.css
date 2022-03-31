@@ -9,7 +9,7 @@
 
 body {
    font-family: "Roboto", sans-serif;
-   background: url("../img/fon/smok25dpi-1920x3500-2.jpg") 0 0/100% auto no-repeat scroll;
+   background: url("../img/fon/smok25dpi-1920x3500-2.jpg") 0 0/100% auto no-repeat fixed;
    color: white;
 }
 
