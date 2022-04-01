@@ -25,10 +25,11 @@
 }
 
 
-/*--------------------------------*/
+/*-----  Предупреждение  ---------*/
 
 .warning__container {
    padding-top: 10px;
+   visibility: visible;
 }
 
 .warning {
@@ -45,7 +46,7 @@
 }
 
 
-/*----------------------------------*/
+/*----   Вертикальные карточки   --------*/
 
 .vertical {
    margin: 200px 0 0 0;
@@ -111,7 +112,6 @@
    line-height: 45px;
    font-size: 16px;
    font-weight: 700;
-   border-radius: 50px;
    text-align: center;
    border: 3px solid #2e8cc7;
 }
@@ -120,3 +120,79 @@
    color: #fff;
    background-color: #2e8cc7;
 }
+
+
+/*---------   О нас   ------------*/
+
+.about {
+   margin-top: 130px;
+}
+
+.about__container {
+   background-color: #e8e8e8;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding-bottom: 30px;
+}
+
+.about__title {
+   text-align: center;
+   padding: 30px 0;
+   font-size: 34px;
+   color: #000;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+.text__container {
+   padding: 0 35px 35px 35px;
+}
+
+.about__text {
+   max-width: 1040px;
+   background-color: #f5f5f5;
+   margin: 0 auto;
+   color: #000;
+   font-size: 22px;
+   line-height: 38px;
+   text-indent: 40px;
+   padding: 30px;
+}
+
+.about__text span {
+   font-weight: 700;
+}
+
+.about__row {
+   display: flex;
+   max-width: 1040px;
+   margin: 0 auto;
+}
+
+.about__column {
+   flex: 0 1 33.333%;
+}
+
+.about__item {}
+
+.item__row {
+   display: flex;
+   padding: 0 0 0 30px;
+}
+
+.item__image img {
+   max-width: 120px;
+}
+
+.item__text {
+   align-self: center;
+   font-size: 16px;
+   line-height: 28px;
+   color: #383838;
+   font-weight: 700;
+   text-align: center;
+   padding: 0 20px;
+}
+
+
+/*----   Контакты   ---------*/
