@@ -196,3 +196,170 @@
 
 
 /*----   Контакты   ---------*/
+
+.contacts {
+   margin: 130px 0 30px 0;
+}
+
+.contacts__container {
+   max-width: 1200px;
+   background-color: #e8e8e8;
+   margin: 0 auto;
+}
+
+.contacts__warning {
+   font-size: 24px;
+   line-height: 34px;
+   color: #000;
+   text-align: center;
+   background-color: #f5710c;
+   padding: 5px;
+   font-weight: 700;
+}
+
+.contacts__title {
+   padding-top: 30px;
+   font-size: 34px;
+   line-height: 38px;
+   color: #000;
+   text-align: center;
+   font-weight: 700;
+}
+
+.contacts__title p {
+   padding-bottom: 30px;
+}
+
+.contact__contcolumn {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 30px 30px 30px;
+}
+
+.contacts__row {
+   display: flex;
+}
+
+.contacts__left {
+   background-color: #f5f5f5;
+   flex: 0 1 34%;
+}
+
+.left__item {}
+
+.left__text {
+   font-size: 22px;
+   line-height: 36px;
+   color: #000;
+   padding: 40px 10px;
+}
+
+.left__text span {
+   font-weight: 700;
+}
+
+.left__text p {
+   padding-bottom: 20px;
+}
+
+.contacts__center {
+   flex: 0 1 100%;
+}
+
+.center__item {
+   display: flex;
+   flex-direction: column;
+   padding: 0 20px;
+}
+
+.center__telbtn {}
+
+.telbtn__container {
+   background-color: #f5f5f5;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.telbtn__container a {
+   color: #000;
+   font-weight: 700;
+   padding: 0 20px;
+}
+
+.telbtn__phone {
+   flex: 0 1 100%;
+   font-size: 41px;
+   text-align: center;
+   padding: 10px;
+}
+
+.telbtn__container {
+   flex: 0 1 50%;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.telbtn__call {
+   display: flex;
+   align-items: center;
+   padding-bottom: 10px;
+}
+
+.telbtn__call img {
+   max-width: 40px;
+}
+
+.call__btn {
+   font-size: 16px;
+   line-height: 28px;
+}
+
+.telbtn__write {
+   display: flex;
+   align-items: center;
+   text-align: right;
+   padding-bottom: 10px;
+}
+
+.telbtn__write img {
+   max-width: 40px;
+}
+
+.write__btn {
+   font-size: 16px;
+   line-height: 28px;
+}
+
+.center__map {}
+
+.map__container {
+   margin-top: 20px;
+}
+
+.contacts__right {
+   background-color: #f5f5f5;
+   flex: 0 1 35%;
+}
+
+.right__item {
+   text-align: center;
+}
+
+.right__title {
+   font-size: 22px;
+   color: #000;
+   font-weight: 700;
+   padding: 40px 10px;
+}
+
+.right__list {
+   font-size: 22px;
+   line-height: 46px;
+   color: #000;
+}
+
+.right__list span {
+   font-weight: 700;
+}
+
+.right__taxi {}
