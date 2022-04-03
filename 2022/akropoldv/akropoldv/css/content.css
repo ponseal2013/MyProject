@@ -339,20 +339,26 @@
 .contacts__right {
    background-color: #f5f5f5;
    flex: 0 1 35%;
+   display: flex;
+   justify-content: center;
 }
 
 .right__item {
-   text-align: center;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
 }
 
 .right__title {
+   flex: 0 1 10%;
    font-size: 22px;
    color: #000;
    font-weight: 700;
-   padding: 40px 10px;
+   padding: 50px 10px 30px 10px;
 }
 
 .right__list {
+   flex: 0 1 100%;
    font-size: 22px;
    line-height: 46px;
    color: #000;
@@ -362,4 +368,8 @@
    font-weight: 700;
 }
 
-.right__taxi {}
+.right__taxi {
+   flex: 0 1 30%;
+   background-color: #2e8cc7;
+   margin: 0 10px 30px 10px;
+}
