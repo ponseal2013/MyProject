@@ -173,7 +173,8 @@
    flex: 0 1 33.333%;
 }
 
-.about__item {}
+
+/*.about__item {}*/
 
 .item__row {
    display: flex;
@@ -245,7 +246,8 @@
    flex: 0 1 34%;
 }
 
-.left__item {}
+
+/*.left__item {}*/
 
 .left__text {
    font-size: 22px;
@@ -272,7 +274,8 @@
    padding: 0 20px;
 }
 
-.center__telbtn {}
+
+/*.center__telbtn {}*/
 
 .telbtn__container {
    background-color: #f5f5f5;
@@ -330,7 +333,8 @@
    line-height: 28px;
 }
 
-.center__map {}
+
+/*.center__map {}*/
 
 .map__container {
    margin-top: 20px;
